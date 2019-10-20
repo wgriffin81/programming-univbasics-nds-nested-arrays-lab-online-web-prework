@@ -30,10 +30,10 @@ def array_literal_matrix
   # side the ENNET_HOUSE and ENFIELD_TENNIS_ACADEMY Arrays but sorts
   # alphabetically by the first character.
   combined_matrix = [
-    ENNET_HOUSE, 
-    ENFIELD_TENNIS_ACADEMY
+    ENNET_HOUSE.sort, 
+    ENFIELD_TENNIS_ACADEMY.sort
     ]
-  sorted_array = combined_matrix.sort
+  
 end
 
 def matrix_lookup(matrix, row, column)
